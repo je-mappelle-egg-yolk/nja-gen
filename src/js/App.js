@@ -12,7 +12,7 @@ function App() {
         <button className='logo-text' onClick={() => setPage()}>njaGen</button>
         <button className='logo-text' onClick={() => setPage(<HowToUseSidebar />)}>how to use</button>
         <span className='version'> |{version}</span>
-        <a className='version' target="_blank" href="https://github.com/je-mappelle-egg-yolk/njaPatcher/blob/main/js/scripts/njPatcher.js">source</a>
+        <a className='version' target="_blank" href="https://github.com/je-mappelle-egg-yolk/nja-gen">source</a>
       </div>
       {pageDisplay}
       <ModelSelection />

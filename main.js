@@ -1,5 +1,4 @@
-const { app, BrowserWindow, shell, dialog, Menu, ipcMain } = require('electron');
-const fs = require('fs');
+const { app, BrowserWindow, shell } = require('electron');
 
 const path = require('path');
 
@@ -23,7 +22,7 @@ function createWindow(){
         return { action: 'deny' };
     });
 
-    //win.setMenu(null);
+    win.setMenu(null);
     win.loadFile('index.html');
     win.on('closed', function(){
         win = null
@@ -49,4 +48,3 @@ app.on('window-all-closed', function (){
 
 //Remove content security warning
 process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
-

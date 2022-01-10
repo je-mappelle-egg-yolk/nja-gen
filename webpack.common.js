@@ -47,6 +47,6 @@ module.exports = {
   ],
   output: {
     filename: 'njaGenPack.js',
-    path: path.resolve(__dirname, 'build', 'js'),
+    path: path.resolve(__dirname, 'src'),
   },
 };

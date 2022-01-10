@@ -8,7 +8,9 @@ node/
 /coverage
 
 # production
-/build
+build/
+dist/
+src/njaGenPack.js
 
 # misc
 .DS_Store
