@@ -16,7 +16,7 @@ npm is required to run this project, if npm is installed:
 1. There is currently a bug that causes strip names in NJA output to display as "undefined". It's unknown what is causing this issue right now.
 2. A bug will occur if an OBJ that uses materials ("usemtl" in obj) is loaded, this will stop the program from being able to write NJ files in that session.
 
-To revert either of the above bugs bug, njaGen must be restarted.
+To revert either of the above bugs, njaGen must be restarted.
 
 ## Optimize Strips bug
 
