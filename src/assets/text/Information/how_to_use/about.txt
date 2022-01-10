@@ -1,0 +1,3 @@
+njaGen is a tool for converting OBJ models into NJA (ASCII) or NJ (Binary) model formats, which are 3D model formats used in SEGA Dreamcast hardware and software.
+
+njaGen uses a modified version of njaPatcher and scan outputs from ExMLDNet (credit: Kryslin), in order to compile new OBJ models into existing meshes from Phantasy Star Online.

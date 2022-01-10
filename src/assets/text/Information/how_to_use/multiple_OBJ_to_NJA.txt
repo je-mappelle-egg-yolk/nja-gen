@@ -1,0 +1,9 @@
+When generating a multi-part NJA, each OBJ should have the same specification (e.g. textures, normals).
+
+For best results, the origin of each part should be where the original NJ model (e.g. HUcast) origins are in 3D space, it's possible to get these positions by generating a cube version of the original model, this can be done using the 'default' option. After generating, convert that NJA to OBJ (see "Making use of NJA/NJ"). This will also visualize the size of the original mesh in the 3D editor.
+
+When exporting a model part from the 3D editor, it must be centered into 3D view before export. It's recommended to create empty models at each node point of the original model to revert the centering after the each model is exported.
+
+The new model should also be facing in the opposite direction of the original model when exporting the parts from a 3D editor, e.g., the new model should be facing away from the 3D editor viewport front view.
+
+Any rotations made to the new OBJ models in the 3D editor viewport shouldn't be applied, since the model conversion process relies on this precision. If a rotation is accidently applied, it's possible to fix it by exporting with different facing options, however, this is dependent on the individual model. Due to this inconvenience, it's a wise idea to keep backups of the models in a different layer/scene.

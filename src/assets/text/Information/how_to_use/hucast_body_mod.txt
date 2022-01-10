@@ -1,0 +1,14 @@
+Modding HUcasts body requires generation of two seperate NJA models, both of which need to be externally converted to NJ (see "Making use of NJA/NJ").
+
+1. An NJ file with a default evalflag (default setting for this tool), which is imported into "plZsmpnj.afs" using an AFS manager. The files that need to be replaced in "plZsmpnj.afs" are:
+--File 33, 39, 45, 51, 57, 63, and 69.
+
+The above files for "plZsmpnj.afs" are morph targets for resizing the character, although it's recommended to use the same model in all slots.
+
+2. An NJ with an alternative evalflag, which replaces "plCbdy00.nj" from the main data folder.
+
+Neither of these NJ files need to be compressed to PRS.
+
+There are some bugs that come with this mod, such as no cloth blending, therefore it's recommended to design alternative solutions to body joints.
+
+Changing the HUcast model in the Dressing Room is a seperate which cannot be done yet.

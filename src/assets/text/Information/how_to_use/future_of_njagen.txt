@@ -1,0 +1,17 @@
+The current development aim for njaGen is to support more assets from Phantasy Star Online, mostly player models and enemies.
+
+The next features to be added into njaGen are:
+-- Modified triangle stripping algorithm
+-- NJA compiler update
+-- Convert OBJ with quads
+-- Levels option for strip optimization
+-- Diffuse color for NJA model
+
+The below features are also planned, although it is unlikely they will be included soon:
+-- Flat shaded OBJ to smooth shaded OBJ on NJA compilation
+-- Custom NJ node format to drop ExMLDNet dependency
+-- Custom scripting language for skeletal meshes
+-- Convert multiple OBJ into NJ
+-- Include models from other SEGA games that use NJ
+
+This feature list is subject to change depending on how far research goes.

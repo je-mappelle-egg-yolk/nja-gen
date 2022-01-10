@@ -1,0 +1,3 @@
+The 'default' model part in multi-part conversions will use this model part to fill in where there are missing models, it's recommended to add a 'default' model part first. 
+
+In other words 'default' is the only required model part to generate a full skeletal NJA model, but is also not required if all other model parts are occupied.

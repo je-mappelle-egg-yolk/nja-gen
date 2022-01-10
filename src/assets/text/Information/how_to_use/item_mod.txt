@@ -1,0 +1,11 @@
+An item mod is a mod of a mag, shield or weapon in Phantasy Star Online. This section will inform how to prepare such a mod.
+
+The "Single model" option can be used to generate suitable NJ files for item mods, although it is recommended to stick to modding mags and shields, this is due to weapons usually requiring more than a single model, and also causing undesirable effects when modded.
+
+The tools required to mod an item in PSO are PRS utility, AFS manager, DDS exporter (paint.net plugin), and texture manager. 
+
+PRS utility is used to compress an NJ file into a PRS file, from there it can imported into "ItemModelEp4.afs" using an AFS manager.
+
+Texture manager is used to import a DDS file into "ItemTextureEp4.afs".
+
+Unfortunately these tools won't be provided here, as there is no solid place where they are kept.

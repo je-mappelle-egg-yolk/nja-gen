@@ -1,0 +1,7 @@
+If an NJA model is generated, it's possible to convert this file into NJ using a leaked SEGA tool named "njaconv.exe". The program was leaked with a SEGA Dreamcast SDK.
+
+If an NJ model is generated, it should be saved in a hex editor, such as HxD.
+
+Once a file is NJ, it can be previewed or converted back to OBJ with Noesis. NJ files are the same files used in Phantasy Star Online for many of the 3D models, so once it is in this format it can be imported into the game files using AFS Manager, or a BML tool, depending on which model is being modified.
+
+NJ file mods need to bear in mind the file size of the original NJ file, which is generally quite small.

@@ -1,0 +1,204 @@
+/* Main theme */
+
+/*orig colours tc: #E9A6A6; fc: #864879; sc: #3F3351; bc: #1F1D36;*/
+
+$text-color: #bdbdbd;
+$feature-color: #52587eea;
+$secondary-color: #323844;
+$background-color: #222222;
+$version-color: #ad9e0f;
+
+/* alt color */
+
+/* webkit */
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+*{
+    color: $text-color;
+}
+
+/* Header */
+.main-header{
+    background-color: $secondary-color;
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+.logo-text{
+    width: 100px;
+    background-color: $secondary-color;
+}
+.version{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0px;
+    float: right;
+    color: $text-color;
+}
+
+/* How To Use */
+.htu-main-container{
+    height: auto;
+}
+.htu-sidebar{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.htu-display-header{
+    font-size: 1.5em;
+}
+.htu-button-container{
+    margin: 0;
+    background-color: $feature-color;
+    width: 25vw;
+    height: 125vh;
+    float: left;
+}
+.htu-display-container{
+    padding: 16px;
+    width: 70vw;
+    height: auto;
+    float: left;
+}
+.htu-display-header{
+    margin: 0;
+}
+.htu-pre{
+    font-size: 1.25em;
+}
+
+.htu-section-header{
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 8px;
+    font-size: 18px;
+    text-decoration: bold;
+}
+.htu-button{
+    height: 24px;
+    text-align: left;
+    width: 100%;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    margin: 4px auto;
+    margin-left: 16px;
+}
+.htu-button:hover{
+    cursor:pointer;
+}
+
+/* General */
+
+body{
+    background-color: $background-color;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background-color: $feature-color;
+    width: 100%;
+    font-size: 24px;
+    margin: 0;
+    float: left;
+    padding: 4px 0px;
+    text-align: center;
+}
+
+/* App */
+
+.app-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Ninja settings */
+
+.ninja-settings-input-container{
+    background-color: $background-color;
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.ninja-settings-table{
+    table-layout: fixed;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.ninja-settings-header-cell{
+    border: 2px solid $feature-color;
+}
+
+/* Ninja Display */
+
+.pre-container{
+    display: block;
+    width: 100%;
+    height: auto;
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+pre{
+    user-select: all;
+    overflow: hidden;
+    white-space: pre-wrap;
+}
+
+/* Model Selection */
+
+select, .custom-generic-button{
+    background-color: $secondary-color;
+    margin: 16px 0;
+    padding: 5px;
+    border-radius: 2px;
+}
+.component-loader-form{
+    margin-bottom: 16px;
+}
+.model-selection-container{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+.part-selection-input-container{
+    margin: 0 auto;
+    text-align: center;
+}
+.part-selection-label{
+    text-align: left;
+    position: absolute;
+}
+.part-selection-input{
+    width: 180px;
+    padding-left: 110px;
+}
+
+/*
+
+.wide-button{
+    bottom: 0;
+    display: block;
+    float: left;
+    width: 100%;
+    height: 32px;
+    box-sizing: border-box;
+    border: 4px solid lightseagreen;
+    background-color: $feature-color;
+}
+
+*/

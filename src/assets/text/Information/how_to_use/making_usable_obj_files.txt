@@ -1,0 +1,8 @@
+Since njaGen is in early development there are still some requirements for generating working NJA files, most of these requirements can be applied on model export from a 3D editor. It's expected these requirements will become less restraining as development continues.
+
+1. The OBJ must be triangulated
+2. The UV coords of the OBJ shouldn't exceed 256x256
+3. The normals exported with the OBJ must be smooth shaded
+4. The OBJ cannot have smoothing groups
+5. The OBJ cannot contain groups (single mesh only)
+6. The OBJ cannot include material information

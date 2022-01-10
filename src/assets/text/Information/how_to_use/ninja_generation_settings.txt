@@ -1,0 +1,16 @@
+There are several settings for generating Ninja models, this section covers what each setting does.
+
+--Generate as NJ
+This option can only be used with the "Single model" option from "obj model selection", it creates a direct output of binary as opposed to an ASCII output. This will also add an NJM (motion resource) chunk onto the end of the model, which is generally required for item mods to work in Phantasy Star Online.
+
+--Optimize strips
+This is an experimental option, and is not recommended for models with a vert count of ~100. It is recommended to use this option when making multi-part NJA models, given that each part is 20-60 verts, it will greatly reduce the final file size.
+
+--Remove textures
+This option will remove the texture list from an NJA, even when the loaded OBJ has texture coordinates, the effect of this setting can be seen by examining the polygon list (PLIST) section in a generated NJA. This option is not supported when generating as NJ.
+
+--Remove normals
+This option will remove normals from an NJA, even when the loaded OBJ has normals, which isn't very useful, but can create some interesting visuals when imported into Phantasy Star Online. The effect of this setting can be seen by examining the vertex list (VLIST) section in a generated NJA. This option is not supported when generating as NJ.
+
+--Alternative Evalflag
+This option changes the evalflag on all models to "0x00000016", which can be used to bypass certain crashes with character model mods.
